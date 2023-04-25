@@ -1,0 +1,54 @@
+body {
+    background-color: #fffefe; /* Sets the background color of the entire document to a very light gray */
+    margin: 0; /* Removes the default margins for the body element */
+    padding: 0; /* Removes the default paddings for the body element */
+}
+
+table {
+    width: 100%; /* Sets the width of the table to 100% of its parent */
+    border-collapse: separate; /* Sets the border collapsing mode to separate */
+    border-spacing: 20px; /* Sets the spacing between the borders of adjacent table cells */
+}
+th, td {
+    /* border: 1px solid black; */ /* Sets the border of table header and table data cells, commented out */
+    vertical-align: middle; /* Aligns the contents of the table header and table data cells vertically in the middle */
+    padding: 10px; /* Sets the padding for table header and table data cells */
+    width: 20%; /* Sets the width of table header and table data cells to 20% */
+    font-size: 20px; /* Sets the font size of the text inside table header and table data cells */
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; /* Sets the font family for the text inside table header and table data cells */
+    letter-spacing: 0.1em; /* Sets the spacing between letters inside table header and table data cells */
+}
+
+.logo {
+    width: 40%; /* Sets the width of the logo container to 40% */
+    text-align: center; /* Centers the contents of the logo container */
+}
+a {
+    color: rgb(62, 62, 62); /* Sets the color of the links to a dark gray */
+    text-decoration: none; /* Removes the default text decoration (underline) for links */
+}
+.image_rocket {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/takieta.jpg); /* Sets the background image with a gradient overlay */
+    background-size: cover; /* Sets the size of the background image to cover the entire container */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    width: 100%; /* Sets the width of the image container to 100% */
+    height: 900px; /* Sets the height of the image container to 900px */
+    display: flex; /* Sets the display type to flex, allowing alignment of children elements */
+    align-items: center; /* Vertically aligns the children elements within the image container */
+}
+.text_container {
+    margin-left: 300px; /* Sets the left margin of the text container to 300px */
+    color: #f5f5f5; /* Sets the text color inside the text container to a light gray */
+    font-family: proxima-nova,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; /* Sets the font family for the text inside the text container */
+    font-size: 55px; /* Sets the font size of the text inside the text container */
+}
+.contact-border {
+    border-width: 2px; /* Sets the border width for the contact-border element */
+    border-color: #f5f5f5; /* Sets the border color for the contact-border element to a light gray */
+    border-style: solid; /* Sets the border style for the contact-border element to solid */
+    display: inline; /* Sets the display type for the contact-border element to inline */
+    font-size: 20px; /* Sets the font size of the text inside the contact-border element */
+    padding: 10px 40px; /* Sets the padding for the contact-border element: 10px for top and bottom, 40px for left and right */
+    background-color: #f5f5f5; /* Sets the background color of the contact-border element to a light gray */
+}
